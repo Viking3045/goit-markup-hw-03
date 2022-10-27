@@ -56,13 +56,10 @@ margin: 0;}
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-        
         margin-top: 0;
         margin-bottom: 30px;
-
         outline: 2px solid tomato;
-        background-color: tomato;
-        
+        background-color: tomato;  
     }
     .section-title.uno{
         display: none;
@@ -71,20 +68,38 @@ margin: 0;}
         font-weight: 700;
         font-size: 36px;
         line-height: 1.17;
-    margin-top: 0;}
+        margin-top: 0;
+         text-align: center;}
+
     /* feauture */
-    .features-list{list-style: none;
-    margin: 0;
-padding: 0;}
+    .features-list{
+        list-style: none;
+        margin-top: 107px;
+        margin-bottom: 94px;
+        padding: 0;}
     .features-list .title{
         color:var(--title-text-color);  
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
-        margin: 0;
+        margin-top: 0;
+        margin-bottom: 10;
+    }
+    .features-list .text{
+        margin-top: 0;
+        margin-bottom: 0;
     }
     /* work */
-    .work-list{list-style: none;}
+    .work-list{
+        list-style: none;
+        margin-top: 0;
+        margin-bottom: 94px;}
+        .work-list .section-title{
+            margin-bottom: 50px;
+        }
+        .section-title.work{
+            margin-bottom: 50px;
+        }
     /* employee */
     
     .employee-list{list-style: none;
@@ -93,7 +108,9 @@ padding: 0;}
     .employee-list .title{color:var(--title-text-color);
         font-weight: 500;
         font-size: 16px;
-        line-height: 1.19;}
+        line-height: 1.19;
+        margin-top: 0;
+        margin-bottom: 10;}
     .employee-list .text{
         font-size: 16px;
         line-height: 1.19x;
