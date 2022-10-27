@@ -31,7 +31,9 @@
     .site-nav .link:hover, .site-nav .link:focus{
        color:var(--accent-color) ; 
     }
-    .list{list-style: none;}
+    .list{list-style: none;
+    padding: 0;
+margin: 0;}
     /* auth-nav */
         .auth-nav .link {
             color: var(--primary-text-color);
@@ -45,7 +47,8 @@
             color: var(--accent-color);}
     /* hero */
     .hero{background-color: #2F303A;
-    outline: 2px solid tomato;}
+        text-align: center;
+    }
     
     .hero-title{
         color: #fff;
@@ -53,22 +56,32 @@
         font-weight: 900;
         font-size: 44px;
         line-height: 1.36;
-        text-align: center;
-        margin-top: 0;
-        margin-bottom: 0;
         
+        margin-top: 0;
+        margin-bottom: 30px;
+
+        outline: 2px solid tomato;
+        background-color: tomato;
+        
+    }
+    .section-title.uno{
+        display: none;
     }
     .section-title{color:var(--title-text-color);
         font-weight: 700;
         font-size: 36px;
-        line-height: 1.17;}
+        line-height: 1.17;
+    margin-top: 0;}
     /* feauture */
-    .features-list{list-style: none;}
+    .features-list{list-style: none;
+    margin: 0;
+padding: 0;}
     .features-list .title{
         color:var(--title-text-color);  
         font-weight: 700;
         font-size: 14px;
         line-height: 1.14;
+        margin: 0;
     }
     /* work */
     .work-list{list-style: none;}
