@@ -190,7 +190,8 @@
     .button.primery {color:var(--ptimary-white-color);
         background-color: #2196F3;
     }
-    .button.primery:hover{background-color: #188CE8;}
+    .button.primery:hover,
+    .button.primery:focus{background-color: #188CE8;}
     .footer{
         background-color:#2F303A;
         padding-top: 60px;
@@ -216,16 +217,26 @@
 
 /* Style Портфоліо */
 .nav-list {
-    list-style: none;}
+    display:flex;
+    justify-content:center;
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
 
-.button .secondary{
+    .nav-list .item:not(last-child){
+        margin-right:8px;
+    }
+
+.button.secondary{
     color: var(--title-text-color);
     background: #F5F4FA;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.63;
-    
-
+    min-width: auto;
+    padding: 6px 22px;
 }
 .button.secondary:hover,
 .button.secondary:focus{ 
@@ -236,14 +247,26 @@
     line-height: 1.63;
 
 }
-.product-list{list-style: none;}
+.product-list{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding-left: 0;
+margin-top: 0;
+margin-bottom: 0;}
 .product-list .title{
         color: var(--title-text-color);
         font-weight: 700;
         font-size: 18px;
         line-height: 2;
+        margin-top: 20px;
+        margin-bottom: 4px;
 }
+
+
 .product-list .text{
         font-size: 16px;
         line-height: 1.88;
+        margin-top: 0;
+        margin-bottom: 0;
 }
