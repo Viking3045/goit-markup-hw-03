@@ -24,7 +24,6 @@
         padding-left: 15px;
         padding-right: 15px;
         outline: 2px solid tomato;
-        background-color:teal;
     }
     .section{
         padding-top: 94px;
@@ -114,12 +113,11 @@
         display: flex;
         margin-top: 0px;
         margin-bottom: 0px;
-        padding: 0;
+        padding-left: 0;
     
         list-style: none;
-    
-         background-color: tomato;}
-         .features-list .item:(:last-child){
+    }
+         .features-list .item:not(:last-child){
             margin-right: 30px;
          }
     .features-list .title{
@@ -139,10 +137,15 @@
         padding-top: 0;
     }
     .work-list{
+        display: flex;
         list-style: none;
         margin-top: 0;
-        margin-bottom: 0;}
-
+        margin-bottom: 0;
+        padding-left: 0;
+}
+    .work-list .item:not(:last-child){
+        margin-right: 30px;
+    }
         .section-title{
             margin-bottom: 50px;
         }
@@ -150,10 +153,15 @@
         .section.comand{
             background-color: #F5F4FA;
     }
-    .employee-list
-        {list-style: none;
+    .employee-list{
+        display: flex;
+        list-style: none;
         margin: 0;
         padding-bottom: 0;
+        padding-left: 0;
+    }
+    .employee-list .item:not(:last-child){
+        margin-right: 30px;
     }
     .employee-list .title{color:var(--title-text-color);
         font-weight: 500;
