@@ -81,7 +81,7 @@ margin: o;}
         .auth-nav .link:focus {
             color: var(--accent-color);}
     /* hero */
-    .hero{background-color: #2F303A;
+    .hero{
         text-align: center;
         padding-top: 200px;
         padding-bottom: 200px;
@@ -190,6 +190,7 @@ margin: o;}
         padding: 10px 32px;
         min-width: 216px;
         text-align: center;
+        border: transparent;
  }
     .button.primery {color:var(--ptimary-white-color);
         background-color: #2196F3;
